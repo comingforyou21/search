@@ -130,14 +130,12 @@ h2.tit {
 .menu .title {
     font-size: 0.7rem;
     text-align: center;
-    line-height: 1.5rem;
     color: #025fbe;
-    text-transform: uppercase;
-    height: 1.5rem;
     border: 1px solid #ccc;
     border-radius: 0.3rem;
     margin: 0.2rem;
     background: #eaeaea;
+    padding: 0.2rem 0;
 }
 
 .menu .title a {
@@ -162,10 +160,6 @@ h2.tit {
     border-radius: 0.1rem;
     font-size: 0.6rem;
     line-height: 0.8rem;
-}
-
-.menu .lanmu ul li:nth-child(4n-1),.menu .lanmu ul li:nth-child(4n) {
-    background: #0a9cef;
 }
 
 .menu .lanmu a {
@@ -213,8 +207,6 @@ h2.tit {
     font-weight: bold;
 }
 
-
-
 i.block {
     display: block;
     margin: 0 0 0.5rem 0;
@@ -243,7 +235,10 @@ table tr:hover {
     color: #fff;
 }
 
-#headm { display: flex; }
+#headm {
+    display: flex;
+}
+
 #headm h2 {
     padding: 0.5rem 1rem;
     margin: 0;
@@ -262,11 +257,9 @@ table tr:hover {
     cursor: pointer;
 }
 
-.menu.menu2 .title{
+.menu.menu2 .title {
     text-transform: none;
     line-height: normal;
     height: auto;
     padding: 0.2rem 0;
 }
-   
- 
