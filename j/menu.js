@@ -3,6 +3,17 @@ var myvar = '<div class="menubg" id="menubg" onclick="closemenu()">'+
 '		<div class="menu">'+
 '			<div class="title"><a href="index.html">Trang chủ</a></div>'+
 ''+
+'			<div class="title"><a href="giaotiep.html">Giao tiếp</a></div>'+
+'			<div class="lanmu">'+
+'				<ul>'+
+'						<li><a href="giaotiep.html#gt1">Chào hỏi</a> </li>'+
+'					<li><a href="giaotiep.html#gt2">Tạm biệt</a> </li>'+
+'					<li><a href="giaotiep.html#gt3">Xin lỗi</a> </li>'+
+'					<li><a href="giaotiep.html#gt4">Chúc mừng</a> </li>'+
+'					<li><a href="giaotiep.html#gt5">Tham khảo thêm</a> </li>'+
+'				</ul>'+
+'			</div>'+
+''+
 '			<div class="title"><a href="kichban.html">Kịch bản</a></div>'+
 '			<div class="lanmu">'+
 '				<ul>'+
@@ -105,17 +116,7 @@ var myvar = '<div class="menubg" id="menubg" onclick="closemenu()">'+
 '			</div>'+
 ''+
 '			<div class="title"><a href="antoan.html">An toàn telegram</a></div>'+
-''+
-'			<div class="title"><a href="giaotiep.html">Giao tiếp</a></div>'+
-'			<div class="lanmu">'+
-'				<ul>'+
-'						<li><a href="giaotiep.html#gt1">Chào hỏi</a> </li>'+
-'					<li><a href="giaotiep.html#gt2">Tạm biệt</a> </li>'+
-'					<li><a href="giaotiep.html#gt3">Xin lỗi</a> </li>'+
-'					<li><a href="giaotiep.html#gt4">Chúc mừng</a> </li>'+
-'					<li><a href="giaotiep.html#gt5">Tham khảo thêm</a> </li>'+
-'				</ul>'+
-'			</div>'+
+
 '			<div class="title"><a href="khac.html">Trường hợp khác</a></div>'+
 '			<div class="lanmu">'+
 '				<ul>'+
