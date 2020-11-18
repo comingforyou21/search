@@ -218,6 +218,7 @@ body.w100 {
 
 table {
     border-collapse: collapse;
+    width: 100%;
 }
 
 table td {
@@ -262,4 +263,9 @@ table tr:hover {
     line-height: normal;
     height: auto;
     padding: 0.2rem 0;
+}
+
+tr.act , tr.act:hover {
+    background: #26a1dc !important;
+    color: #fff !important;
 }
