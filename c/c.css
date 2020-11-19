@@ -295,4 +295,5 @@ tr.act , tr.act:hover {
     #head h1{
         display: none;
     }
+    #head{ height: auto; }
 }
