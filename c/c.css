@@ -289,3 +289,10 @@ tr.act , tr.act:hover {
     background: #14079f !important;
     color: #fff !important;
 }
+
+
+@media screen and (max-width: 640px) {
+    #head h1{
+        display: none;
+    }
+}
