@@ -134,13 +134,13 @@ h2.tit {
     border: 1px solid #ccc;
     border-radius: 0.3rem;
     margin: 0.2rem;
-    background: #eaeaea;
-    padding: 0.2rem 0;
+    background: #eaeaea;    
 }
 
 .menu .title a {
     color: #025fbe;
     display: block;
+    padding: 0.2rem 0;
 }
 
 .menu .lanmu ul {
@@ -255,13 +255,11 @@ table tr:hover {
     cursor: pointer;
 }
 
-#headm h3 {
-    padding: 0.5rem 1rem;
-    margin: 0;
+#headm h2.i2 {
     background: #ff7600;
-    font-weight: bold;
-    color: #fff;
-    cursor: pointer;
+}
+#headm h2.i3 {
+    background: #008486;
 }
 
 .menu.menu2 .title {

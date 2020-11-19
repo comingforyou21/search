@@ -51,9 +51,9 @@ var myvar = '<div class="menubg" id="menubg" onclick="closemenu()">'+
 '			<div class="lanmu">'+
 '				<ul>'+
 '					<li><a href="254.html#2541">Kịch bản GCT 25/4</a> </li>'+
-'					<li><a href="254.html#2542">Không đến Trung Nam Hải thì không có bức hại?</a> </li>'+
+'					<li><a href="254.html#2542">Không đến TNH thì không có bức hại?</a> </li>'+
 '					<li><a href="254.html#2543">Thỉnh nguyện 25/4 đã dẫn đến bức hại?</a> </li>'+
-'					<li><a href="254.html#2544">Nhiều người tham gia thỉnh nguyện mới dẫn đến đàn áp?</a> </li>'+
+'					<li><a href="254.html#2544">Nhiều người thỉnh nguyện mới dẫn đến đàn áp?</a> </li>'+
 '					<li><a href="254.html#2545">Tín ngưỡng được nhưng làm chính trị không được?</a> </li>'+
 ''+
 '				</ul>'+
@@ -72,6 +72,7 @@ var myvar = '<div class="menubg" id="menubg" onclick="closemenu()">'+
 '			<div class="lanmu">'+
 '				<ul>'+
 '					<li><a href="mocuop.html#mc1">Kịch bản GCT mổ cướp tạng</a> </li>'+
+'					<li><a href="mocuop.html#mc3">Không thích DCS nhưng không phản đối</a> </li>'+
 '					<li><a href="mocuop.html#mc2">Tham khảo thêm</a> </li>'+
 '				</ul>'+
 '			</div>'+
@@ -82,8 +83,8 @@ var myvar = '<div class="menubg" id="menubg" onclick="closemenu()">'+
 '					<li><a href="tien.html#ct1">Cho tiền tôi sẽ thoái 1</a> </li>'+
 '					<li><a href="tien.html#ct2">Cho tiền tôi sẽ thoái 2</a> </li>'+
 '					<li><a href="tien.html#ct3">Cho tiền tôi sẽ thoái 3</a> </li>'+
-'					<li><a href="tien.html#ct4">Tham gia Pháp Luân Công có được tiền không?</a> </li>'+
-'					<li><a href="tien.html#ct5">Tham gia Pháp Luân Công có được tiền không 2?</a> </li>'+
+'					<li><a href="tien.html#ct4">Tham gia PLC có tiền không?</a> </li>'+
+'					<li><a href="tien.html#ct5">Tham gia PLC có tiền không 2?</a> </li>'+
 '					<li><a href="tien.html#ct6">Tham khảo thêm</a> </li>'+
 '				</ul>'+
 '			</div>'+
