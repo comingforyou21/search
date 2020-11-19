@@ -296,4 +296,5 @@ tr.act , tr.act:hover {
         display: none;
     }
     #head{ height: auto; }
+        #head h2{font-size: 0.5rem;}
 }
