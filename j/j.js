@@ -34,7 +34,9 @@
 	}
 
 
-	$(document).ready(function () {    
+	$(document).ready(function () {
+		
+		//menu 2
 		var html = "";
 		$("h2.tit").each( function(){
 			var id = $(this).attr("id");
@@ -42,6 +44,8 @@
 			html +='<div class="title"><a href="#'+id+'">'+text+'</a></div>';
 		});
 		$("#menubg2 .menu2").html(html);
+
+		//scroll menu
 		$(document).on("click", ".menu2 a" , function() {
 			var id = $(this).attr("href");
 			if (id != "#undefined") {
@@ -53,6 +57,8 @@
 				return false;
 			}		
 		});
+
+		//menu 1
 		$(document).on("click", ".lanmu a" , function() {
 			var id = $(this).attr("href").split('#')[1];
 			console.log(id);
@@ -65,9 +71,46 @@
 				return false;
 			}		
 		});
+
+		//luutru html
+
+		luutruhtml = localStorage.getItem('archivev2');
+		$('#tluutru tbody').html(luutruhtml);
+
+		//luu tru
+		$(document).on("click", "#archivev2.act a" , function() {
+			
+			var html = '<tr>' + $("table tr.act").html() + '</tr>';
+			html = html.replace(/(\r\n|\n|\r)/gm, "");
+			html = $.trim(html);
+			console.log(html);
+
+			var china = $('table tr.act').find("td:nth-child(2)").text();			
+			var x = localStorage.getItem('archivev2');
+			if (x) {
+				if(x.indexOf(china) != -1){
+					alert("Đã tồn tại");
+					return false;
+				}
+				else{
+					localStorage.setItem('archivev2', x + html);
+				}							
+			}
+			else{
+				localStorage.setItem('archivev2', html);
+			}
+			alert("Đã lưu trữ, vào mục cá nhân để xem");
+			
+			$("#archivev2").removeClass("act");
+			$("#archivev2 a").text("Cá nhân");
+			return false;
+		});
+
+
 	});
 
 
+	//double click
 	var touchtime = 0;
 	$(document).on("click", "table tr" , function() {
 		if (touchtime == 0) {
@@ -75,21 +118,25 @@
 		} else {
 			if (((new Date().getTime()) - touchtime) < 800) {
 				$("table tr").removeClass("act");
-				$(this).addClass("act");
+				$(this).addClass("act");				
 				var china = $(this).find("td:nth-child(2)").text();
 				copyToClipboard(china);
-				touchtime = 0;                                           
+				touchtime = 0;
+				$("#archivev2").addClass("act");
+				$("#archivev2 a").text("Lưu trữ");
 			} else {                        
 				touchtime = new Date().getTime();
+				$("#archivev2").removeClass("act");
+				$("#archivev2 a").text("Cá nhân");
 			}
 		}
 	});
 
 	function copyToClipboard(text) {
-			var dummy = document.createElement("textarea");                
-			document.body.appendChild(dummy);                
-			dummy.value = text;
-			dummy.select();
-			document.execCommand("copy");
-			document.body.removeChild(dummy);
-		}
+		var dummy = document.createElement("textarea");                
+		document.body.appendChild(dummy);                
+		dummy.value = text;
+		dummy.select();
+		document.execCommand("copy");
+		document.body.removeChild(dummy);
+	}
