@@ -25,7 +25,7 @@ var myvar = '<div class="menubg" id="menubg" onclick="closemenu()">'+
 '				</ul>'+
 '			</div>'+
 ''+
-'			<div class="title"><a href="tamthoai.html">Đại Pháp hồng truyền</a></div>'+
+'			<div class="title"><a href="dpht.html">Đại Pháp hồng truyền</a></div>'+
 '			<div class="lanmu">'+
 '				<ul>'+
 '					<li><a href="dpht.html#dp1">Kịch bản giảng Đại Pháp hồng truyền</a> </li>'+

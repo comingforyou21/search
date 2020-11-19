@@ -231,6 +231,12 @@ table tr {
     transition: all 0.3s;
 }
 
+
+table td a{
+    color:#0600ff;
+    font-weight:bold;
+}
+
 table tr:hover {
     background: #018e59;
     color: #fff;
