@@ -1,13 +1,14 @@
 var x = localStorage.getItem('login');
-if (!x) {
+var d=new Date();
+if (x != d.getDay()) {
 	var person = prompt("Nhập pass: ");
   if (person == "20071999") {
-	localStorage.setItem('login', person);    
+	localStorage.setItem('login', d.getDay());
   } 
   else 
   {
     localStorage.removeItem("login");
-    window.location.href = "https://vn.minghui.org/news";
+    window.location.href = "https://vn.minghui.org/";
   }	
 }
 
