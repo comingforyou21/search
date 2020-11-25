@@ -29,10 +29,10 @@ var myvar = '<div class="menubg" id="menubg" onclick="closemenu()">'+
 '			<div class="lanmu">'+
 '				<ul>'+
 '					<li><a href="dpht.html#dp1">Kịch bản giảng Đại Pháp hồng truyền</a> </li>'+
-'					<li><a href="dpht.html#dp2">Chân Thiện Nhẫn là gì?</a> </li>'+
+'					<li><a href="dpht.html#dp2">Thể ngộ về Chân Thiện Nhẫn</a> </li>'+
 '					<li><a href="dpht.html#dp3">Phân biệt PLC và Phật giáo</a> </li>'+
 '					<li><a href="dpht.html#dp4">Pháp Luân Công có lợi ích gì?</a> </li>'+
-'					<li><a href="dpht.html#dp5">Chúng sinh hiểu lầm về Sư phụ</a> </li>'+
+'					<li><a href="dpht.html#dp5">Về Sư phụ</a> </li>'+
 '					<li><a href="dpht.html#dp6">ShenYun Văn hóa truyền thống</a> </li>'+
 '					<li><a href="dpht.html#dp17">Tham khảo thêm</a> </li>'+
 '				</ul>'+
