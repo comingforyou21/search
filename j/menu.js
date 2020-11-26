@@ -61,9 +61,9 @@ var myvar = '<div class="menubg" id="menubg" onclick="closemenu()">'+
 '			<div class="title"><a href="1400.html">1400 trường hợp</a></div>'+
 '			<div class="lanmu">'+
 '				<ul>'+
-'					<li><a href="mocuop.html#14001">Kịch bản GCT 1400</a> </li>'+
-'					<li><a href="mocuop.html#14002">Mổ bụng tìm Pháp Luân ?</a> </li>'+
-'					<li><a href="mocuop.html#14003">Tham khảo thêm</a> </li>'+
+'					<li><a href="1400.html#14001">Kịch bản GCT 1400</a> </li>'+
+'					<li><a href="1400.html#14002">Mổ bụng tìm Pháp Luân ?</a> </li>'+
+'					<li><a href="1400.html#14003">Tham khảo thêm</a> </li>'+
 '				</ul>'+
 '			</div>'+
 ''+
