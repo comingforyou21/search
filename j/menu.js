@@ -22,7 +22,33 @@ var myvar = '<div class="menubg" id="menubg" onclick="closemenu()">'+
 '					<li><a href="kichban.html#kb3">Kịch bản 3</a> </li>'+
 '					<li><a href="kichban.html#kb4">Kịch bản 4</a> </li>'+
 '					<li><a href="kichban.html#kb5">Kịch bản 5</a> </li>'+
-'					<li><a href="khac.html">Tham khảo thêm</a></li>'+
+'				</ul>'+
+'			</div>'+
+''+
+'			<div class="title"><a href="khac.html">Kịch bản khác</a></div>'+
+'			<div class="lanmu">'+
+'				<ul>'+
+
+'<li><a href="khac.html#k11">Hiểu nhầm đã tự động thoái</a></li>'+
+'   <li><a href="khac.html#k12">Khuyến thoái lặp lại</a></li>'+
+'   <li><a href="khac.html#k13">phân biệt TQ, TC</a></li>'+
+'   <li><a href="khac.html#k14">Tôi thoái rồi</a></li>'+
+'   <li><a href="khac.html#k15">Lời thề, dẫn dắt tam thoái</a></li>'+
+'   <li><a href="khac.html#k16">Chuyển tiếp , giải thích tam thoái</a></li>'+
+'   <li><a href="khac.html#k17">Hỏi tổ chức</a></li>'+
+'   <li><a href="khac.html#k18">Không biểu lộ thái độ, có băn khoăn</a></li>'+
+'   <li><a href="khac.html#k19">9 chữ vàng</a></li>'+
+'   <li><a href="khac.html#k20">ĐCSTQ thối nát. Tôi cũng bất lực</a></li>'+
+'   <li><a href="khac.html#k1">ĐCSTQ thối nát. Tôi cũng bất lực</a></li>'+
+'   <li><a href="khac.html#k2">Đây toàn là giả ?</a></li>'+
+'   <li><a href="khac.html#k3">Vượt tường lửa</a></li>'+
+'   <li><a href="khac.html#k4">Bệnh dịch Mỹ cũng chết nhiều</a></li>'+
+'   <li><a href="khac.html#k5">Tại sao cứ bảo DCSTQ ác ?</a></li>'+
+'   <li><a href="khac.html#k6">Giang Trạch Dân chưa bị quả báo?</a></li>'+
+'   <li><a href="khac.html#k7">Có được vợ không? (hoặc họ gửi clip sắc dục)</a></li>'+
+'   <li><a href="khac.html#k8">Thoái rồi mà ko có phúc báo ?</a></li>'+
+'   <li><a href="khac.html#k9">Làm chính trị</a></li>'+
+'   <li><a href="khac.html#k10">Phản đảng là phản động?</a></li>' +
 '				</ul>'+
 '			</div>'+
 ''+
@@ -30,7 +56,7 @@ var myvar = '<div class="menubg" id="menubg" onclick="closemenu()">'+
 '			<div class="lanmu">'+
 '				<ul>'+
 '					<li><a href="dpht.html#dp1">Kịch bản giảng Đại Pháp hồng truyền</a> </li>'+
-'					<li><a href="dpht.html#dp2">Thể ngộ về Chân Thiện Nhẫn</a> </li>'+
+'					<li><a href="dpht.html#dp2">Giảng về Chân Thiện Nhẫn</a> </li>'+
 '					<li><a href="dpht.html#dp3">Phân biệt PLC và Phật giáo</a> </li>'+
 '					<li><a href="dpht.html#dp4">Pháp Luân Công có lợi ích gì?</a> </li>'+
 '					<li><a href="dpht.html#dp5">Về Sư phụ</a> </li>'+
@@ -143,5 +169,5 @@ var myvar = '<div class="menubg" id="menubg" onclick="closemenu()">'+
 '		<div class="menu menu2">'+
 '		</div>	'+
 '	</div>';
-	
+
 document.write(myvar);

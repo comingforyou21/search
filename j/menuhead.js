@@ -1,13 +1,16 @@
 var x = localStorage.getItem('login');
 var d=new Date();
+
 if (x != d.getDay()) {
+  localStorage.removeItem("thongbao");
 	var person = prompt("Nhập pass: ");
   if (person == "20071999") {
 	localStorage.setItem('login', d.getDay());
   } 
   else 
   {
-    localStorage.removeItem("login");
+    //localStorage.removeItem("login");
+    localStorage.clear();
     window.location.href = "https://vn.minghui.org/";
   }	
 }
@@ -23,7 +26,14 @@ var myvar = '<div id="head">'+
 '	<h2 class="i2" onclick="openmenu2()"><a>Menu 2</a></h2>'+
 '	<h2 class="i3" onclick="openmenu()"><a>Menu 1</a></h2>	'+
 '	</div>'+
-'		'+
+'</div>'+
+
+//thongbao
+'<div id="thongbao">'+
+' <p>Chúng tôi đã cập nhật thêm menu "Kịch Bản Khác". Ấn Menu1 để xem</p>'+
+' <span id="close">Đóng</span>'+
 '</div>';
+  
+
 		
 document.write(myvar);
