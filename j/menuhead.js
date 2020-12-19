@@ -9,8 +9,8 @@ if (x != d.getDay()) {
   } 
   else 
   {
-    //localStorage.removeItem("login");
-    localStorage.clear();
+    localStorage.removeItem("login");
+    localStorage.removeItem("thongbao");
     window.location.href = "https://vn.minghui.org/";
   }	
 }
