@@ -37,13 +37,19 @@
 	$(document).ready(function () {
 		
 		//menu 2
-		var html = "";
-		$("h2.tit").each( function(){
-			var id = $(this).attr("id");
-			var text = $(this).text();
-			html +='<div class="title"><a href="#'+id+'">'+text+'</a></div>';
+		// var html = "";
+		// $("h2.tit").each( function(){
+		// 	var id = $(this).attr("id");
+		// 	var text = $(this).text();
+		// 	html +='<div class="title"><a href="#'+id+'">'+text+'</a></div>';
+		// });
+		// $("#menubg2 .menu2").html(html);
+
+		$('.th').click( function(){
+			$('.dap').slideUp(500);
+			$(this).next('.dap').slideDown(500);
 		});
-		$("#menubg2 .menu2").html(html);
+	 
 
 		//scroll menu
 		$(document).on("click", ".menu2 a" , function() {

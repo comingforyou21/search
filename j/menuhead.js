@@ -30,7 +30,7 @@ var myvar = '<div id="head">'+
 
 //thongbao
 '<div id="thongbao">'+
-' <p>Chúng tôi đã cập nhật thêm menu "Kịch Bản Khác". Ấn Menu1 để xem</p>'+
+' <p>Thông báo: Menu2 đã được bổ sung thêm các chuyên mục khác. Ấn vào Menu2 để xem.<br><a href="3t.html">- Phân biệt hình thức thoái</a><br><a href="hoadanh.html">- Tự tạo hóa danh random</a> </p>'+
 ' <span id="close">Đóng</span>'+
 '</div>';
   

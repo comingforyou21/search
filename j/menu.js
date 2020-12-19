@@ -144,21 +144,6 @@ var myvar = '<div class="menubg" id="menubg" onclick="closemenu()">'+
 '			</div>'+
 ''+
 '			<div class="title"><a href="antoan.html">An toàn telegram</a></div>'+
-
-// '			<div class="lanmu">'+
-// '				<ul>'+
-// '					<li><a href="khac.html#k1">ĐCSTQ thối nát. Tôi cũng bất lực</a> </li>'+
-// '					<li><a href="khac.html#k2">Đây toàn là giả ?</a> </li>'+
-// '					<li><a href="khac.html#k3">Vượt tường lửa</a> </li>'+
-// '					<li><a href="khac.html#k4">Bệnh dịch Mỹ cũng chết nhiều</a> </li>'+
-// '					<li><a href="khac.html#k5">Tại sao cứ bảo DCSTQ ác ?</a> </li>'+
-// '					<li><a href="khac.html#k6">Giang Trạch Dân chưa bị quả báo?</a> </li>'+
-// '					<li><a href="khac.html#k7">Có được vợ không? (hoặc họ gửi clip sắc dục)</a> </li>'+
-// '					<li><a href="khac.html#k8">Thoái rồi mà ko có phúc báo ?</a> </li>'+
-// '					<li><a href="khac.html#k9">Làm chính trị</a> </li>'+
-// '					<li><a href="khac.html#k10">Phản đảng là phản động?</a> </li>'+
-// '				</ul>'+
-// '			</div>'+
 ''+
 ''+
 '		</div>	'+
@@ -167,6 +152,11 @@ var myvar = '<div class="menubg" id="menubg" onclick="closemenu()">'+
 ''+
 '	<div class="menubg" id="menubg2" onclick="closemenu()">'+
 '		<div class="menu menu2">'+
+'			<div class="title"><a href="3t.html">Phân biệt hình thức thoái</a></div>'+
+'			<div class="title"><a href="hoadanh.html">Tạo hóa danh</a></div>'+
+'			<div class="title"><a href="minhbach.html">Trường hợp minh bạch</a></div>'+
+'			<div class="title"><a target="blank" href="/quiz/">Chân tướng cơ bản</a></div>'+
+
 '		</div>	'+
 '	</div>';
 
