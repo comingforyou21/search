@@ -26,7 +26,7 @@ var myvar = '<div id="head">'+
 '	<h2 class="i2" onclick="openmenu2()"><a>Menu 2</a></h2>'+
 '	<h2 class="i3" onclick="openmenu()"><a>Menu 1</a></h2>	'+
 '	</div>'+
-'</div>'+
+'</div>';
 
 //thongbao
 // '<div id="thongbao">'+
