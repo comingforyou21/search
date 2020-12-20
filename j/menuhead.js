@@ -29,10 +29,10 @@ var myvar = '<div id="head">'+
 '</div>'+
 
 //thongbao
-'<div id="thongbao">'+
-' <p>Thông báo: Menu2 đã được bổ sung thêm các chuyên mục khác. Ấn vào Menu2 để xem.<br><a href="3t.html">- Phân biệt hình thức thoái</a><br><a href="hoadanh.html">- Tự tạo hóa danh random</a> </p>'+
-' <span id="close">Đóng</span>'+
-'</div>';
+// '<div id="thongbao">'+
+// ' <p>Thông báo: Menu2 đã được bổ sung thêm các chuyên mục khác. Ấn vào Menu2 để xem.<br><a href="3t.html">- Phân biệt hình thức thoái</a><br><a href="hoadanh.html">- Tự tạo hóa danh random</a> </p>'+
+// ' <span id="close">Đóng</span>'+
+// '</div>';
   
 
 		
