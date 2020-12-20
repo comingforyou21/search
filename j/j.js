@@ -112,15 +112,15 @@
 			return false;
 		});
 
-		var x = localStorage.getItem('thongbao');
-		if (x!="1") {
-			$("body").addClass("dark");
-			$("#thongbao").show();
-		}
-		else{
-			$("body").removeClass("dark");
-			$("#thongbao").hide();
-		}
+		// var x = localStorage.getItem('thongbao');
+		// if (x!="1") {
+		// 	$("body").addClass("dark");
+		// 	$("#thongbao").show();
+		// }
+		// else{
+		// 	$("body").removeClass("dark");
+		// 	$("#thongbao").hide();
+		// }
 
 		$(document).on("click", "#close" , function() {
 			localStorage.setItem('thongbao', "1");
