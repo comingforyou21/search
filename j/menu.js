@@ -22,7 +22,7 @@ var myvar = '<div class="menubg" id="menubg" onclick="closemenu()">'+
 '					<li><a href="kichban.html#kb3">Kịch bản 3</a> </li>'+
 '					<li><a href="kichban.html#kb4">Kịch bản 4</a> </li>'+
 '					<li><a href="kichban.html#kb5">Kịch bản 5</a> </li>'+
-'					<li><a href="kichban.html#kb6">Kịch bản 6</a> </li>'+
+'					<li><a href="kichban6.html">Kịch bản thoái</a> </li>'+
 '				</ul>'+
 '			</div>'+
 ''+
@@ -153,12 +153,15 @@ var myvar = '<div class="menubg" id="menubg" onclick="closemenu()">'+
 ''+
 '	<div class="menubg" id="menubg2" onclick="closemenu()">'+
 '		<div class="menu menu2">'+
+'			<div class="title"><a href="all.html">Tìm kiếm</a></div>'+
 '			<div class="title"><a href="3t.html">Phân biệt hình thức thoái</a></div>'+
 '			<div class="title"><a href="hoadanh.html">Tạo hóa danh</a></div>'+
 '			<div class="title"><a href="minhbach.html">Trường hợp minh bạch</a></div>'+
 '			<div class="title"><a target="blank" href="/quiz/">Chân tướng cơ bản</a></div>'+
 
 '		</div>	'+
-'	</div>';
+'	</div>'+
+'<a id="searchl" href="all.html">Tìm kiếm ấn vào đây</a>';
 
 document.write(myvar);
+
