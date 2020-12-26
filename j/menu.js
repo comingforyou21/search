@@ -22,6 +22,7 @@ var myvar = '<div class="menubg" id="menubg" onclick="closemenu()">'+
 '					<li><a href="kichban.html#kb3">Kịch bản 3</a> </li>'+
 '					<li><a href="kichban.html#kb4">Kịch bản 4</a> </li>'+
 '					<li><a href="kichban.html#kb5">Kịch bản 5</a> </li>'+
+'					<li><a href="kichban.html#kb6">Kịch bản 6</a> </li>'+
 '				</ul>'+
 '			</div>'+
 ''+
