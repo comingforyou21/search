@@ -26,15 +26,15 @@ var myvar = '<div id="head">'+
 '	<h2 class="i2" onclick="openmenu2()"><a>Menu 2</a></h2>'+
 '	<h2 class="i3" onclick="openmenu()"><a>Menu 1</a></h2>	'+
 '	</div>'+
-'</div>';
+'</div>'+
 
 //thongbao
 '<div id="thongbao">'+
-' <p> </p>'+
+' <p>'+
 'Thông báo: Menu2 đã được bổ sung thêm các chuyên mục khác. Ấn vào Menu2 để xem.<br><a href="3t.html">- Phân biệt hình thức thoái</a><br><a href="hoadanh.html">- Tự tạo hóa danh random</a>'+
 '<br> - Thêm kịch bản 6'+
 '<br> Thông báo sẽ tự đóng sau 5 giây '+
-''+
+' </p>'+
 
 ' <span id="close">Đóng</span>'+
 '</div>';
