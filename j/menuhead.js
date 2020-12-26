@@ -31,14 +31,11 @@ var myvar = '<div id="head">'+
 //thongbao
 '<div id="thongbao">'+
 ' <p>'+
-'Thông báo: Menu2 đã được bổ sung thêm các chuyên mục khác. Ấn vào Menu2 để xem.<br><a href="3t.html">- Phân biệt hình thức thoái</a><br><a href="hoadanh.html">- Tự tạo hóa danh random</a>'+
+'Thông báo: Menu2 đã được bổ sung thêm các chuyên mục khác. <br> Ấn vào Menu2 để xem.<br><a href="3t.html">- Phân biệt hình thức thoái</a><br><a href="hoadanh.html">- Tự tạo hóa danh random</a>'+
 '<br> - Thêm kịch bản 6'+
-'<br> Thông báo sẽ tự đóng sau 5 giây '+
+'<br> Thông báo sẽ tự đóng sau 8 giây '+
 ' </p>'+
-
 ' <span id="close">Đóng</span>'+
 '</div>';
-  
-
-		
+	
 document.write(myvar);
