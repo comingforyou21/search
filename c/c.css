@@ -342,3 +342,5 @@ body.dark:before {
     display: block;
     margin: 0.3rem;
 }
+body.bsearch h2.tit{ cursor: pointer; }
+body.bsearch h2.tit:hover{ background: #14079f; }

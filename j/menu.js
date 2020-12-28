@@ -153,6 +153,7 @@ var myvar = '<div class="menubg" id="menubg" onclick="closemenu()">'+
 ''+
 '	<div class="menubg" id="menubg2" onclick="closemenu()">'+
 '		<div class="menu menu2">'+
+'			<div class="title"><a href="huongdan.html">Hướng dẫn sử dụng</a></div>'+
 '			<div class="title"><a href="all.html">Tìm kiếm</a></div>'+
 '			<div class="title"><a href="3t.html">Phân biệt hình thức thoái</a></div>'+
 '			<div class="title"><a href="hoadanh.html">Tạo hóa danh</a></div>'+

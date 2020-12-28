@@ -132,7 +132,7 @@
 		  	localStorage.setItem('thongbao', "1");
 			$("body").removeClass("dark");
 			$("#thongbao").hide();
-		}, 8000);
+		}, 10000);
 
 
 	});
