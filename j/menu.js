@@ -122,6 +122,7 @@ var myvar = '<div class="menubg" id="menubg" onclick="closemenu()">'+
 '				<ul>'+
 '					<li><a href="vothan.html#vt1">Vô thần chỉ tin khoa học</a> </li>'+
 '					<li><a href="vothan.html#vt2">Thần ở đâu? Tôi không thấy ?</a> </li>'+
+'					<li><a href="vothan.html#vt3">Thuyết tiến hóa</a> </li>'+
 '				</ul>'+
 '			</div>'+
 ''+
