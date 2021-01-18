@@ -42,7 +42,7 @@ var myvar = '<div class="menubg" id="menubg" onclick="closemenu()">'+
 '   <li><a href="khac.html#k20">ĐCSTQ thối nát. Tôi cũng bất lực</a></li>'+
 '   <li><a href="khac.html#k1">ĐCSTQ thối nát. Tôi cũng bất lực</a></li>'+
 '   <li><a href="khac.html#k2">Đây toàn là giả ?</a></li>'+
-'   <li><a href="khac.html#k3">Vượt tường lửa</a></li>'+
+'   <li><a href="khac.html#k3">Thông tin bị phong tỏa</a></li>'+
 '   <li><a href="khac.html#k4">Bệnh dịch Mỹ cũng chết nhiều</a></li>'+
 '   <li><a href="khac.html#k5">Tại sao cứ bảo DCSTQ ác ?</a></li>'+
 '   <li><a href="khac.html#k6">Giang Trạch Dân chưa bị quả báo?</a></li>'+
