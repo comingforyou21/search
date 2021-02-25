@@ -31,7 +31,7 @@ var myvar = '<div id="head">'+
 //thongbao
 '<div id="thongbao">'+
 ' <p>'+
-'📣 Ấn vào Menu2 để xem các mục mới. <br> Thêm video hướng dẫn'+
+'📣📣📣 Đã có kịch bản tiêm vác xin mới.  <a href="https://comingforyou20.github.io/search/kichban6.html#stu10">Ấn vào đây</a> '+
 '<br> Thông báo sẽ tự đóng sau 10 giây '+
 ' </p>'+
 ' <span id="close">Đóng</span>'+
