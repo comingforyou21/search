@@ -31,7 +31,8 @@ var myvar = '<div id="head">'+
 //thongbao
 '<div id="thongbao">'+
 ' <p>'+
-'📣📣📣 Đã có kịch bản tiêm vác xin mới.  <a href="https://comingforyou20.github.io/search/kichban6.html#stu10">Ấn vào đây</a> '+
+'Lưu ý: Các câu chào hỏi trên web chỉ mang tính tham khảo, nên thêm các biểu tượng mặt cười, ngắt câu, thêm dấu chấm, phẩy ... tránh tình trạng bị khóa nick do nhiêu người copy giống nhau.'+
+'<br> Thêm 1 số câu giảng về Chân Thiện Nhẫn '+
 '<br> Thông báo sẽ tự đóng sau 10 giây '+
 ' </p>'+
 ' <span id="close">Đóng</span>'+
