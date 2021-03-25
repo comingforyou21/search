@@ -47,7 +47,7 @@ var myvar = '<div id="head">'+
 '<div id="thongbao">'+
 ' <p>'+
 'Lưu ý: Các câu chào hỏi trên web chỉ mang tính tham khảo, nên thêm các biểu tượng mặt cười, ngắt câu, thêm dấu chấm, phẩy ... tránh tình trạng bị khóa nick do nhiêu người copy giống nhau.'+
-'<br> Thêm 1 số câu giảng về quả báo tự thiêu Thiên An Môn '+
+'<br> Thêm 1 số câu giảng về quả báo tự thiêu Thiên An Môn  <a href="tuthieu.html#tt5">Click</a>'+
 '<br> Thông báo sẽ tự đóng sau 10 giây '+
 ' </p>'+
 ' <span id="close">Đóng</span>'+
