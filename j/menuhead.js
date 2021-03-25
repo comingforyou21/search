@@ -15,6 +15,21 @@ if (x != d.getDay()) {
   }	
 }
 
+var html = document.getElementsByTagName("html")[0];
+  var rootResize = function () {
+    var winClient = document.documentElement.clientWidth;
+    var fontSize = winClient < 640 ? winClient / 16 : 30;
+    if (fontSize < 20) {
+      fontSize = 20;
+    }
+    html.style.fontSize = fontSize + "px";
+  }
+
+  rootResize();
+  window.onresize = function () {
+    rootResize();
+  }
+
   
 var myvar = '<div id="head">'+
 
@@ -32,7 +47,7 @@ var myvar = '<div id="head">'+
 '<div id="thongbao">'+
 ' <p>'+
 'Lưu ý: Các câu chào hỏi trên web chỉ mang tính tham khảo, nên thêm các biểu tượng mặt cười, ngắt câu, thêm dấu chấm, phẩy ... tránh tình trạng bị khóa nick do nhiêu người copy giống nhau.'+
-'<br> Thêm 1 số câu giảng về Chân Thiện Nhẫn '+
+'<br> Thêm 1 số câu giảng về quả báo tự thiêu Thiên An Môn '+
 '<br> Thông báo sẽ tự đóng sau 10 giây '+
 ' </p>'+
 ' <span id="close">Đóng</span>'+
