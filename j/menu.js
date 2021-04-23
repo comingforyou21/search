@@ -132,6 +132,7 @@ var myvar = '<div class="menubg" id="menubg" onclick="closemenu()">'+
 '					<li><a href="songtot.html#st1">Tôi đang sống tốt 1</a> </li>'+
 '					<li><a href="songtot.html#st2">Tôi đang sống tốt 2</a> </li>'+
 '					<li><a href="songtot.html#st3">Tôi đang sống tốt 3</a> </li>'+
+'					<li><a href="songtot.html#st5">Tôi đang sống tốt 4</a> </li>'+
 '					<li><a href="songtot.html#st4">Tham khảo thêm</a> </li>'+
 '				</ul>'+
 '			</div>'+
