@@ -29,7 +29,7 @@ var myvar = '<div class="menubg" id="menubg" onclick="closemenu()">'+
 '			<div class="title"><a href="khac.html">Kịch bản khác</a></div>'+
 '			<div class="lanmu">'+
 '				<ul>'+
-
+'<li><a href="khac.html#k21">Không muốn rối loạn</a></li>'+
 '<li><a href="khac.html#k11">Hiểu nhầm đã tự động thoái</a></li>'+
 '   <li><a href="khac.html#k12">Khuyến thoái lặp lại</a></li>'+
 '   <li><a href="khac.html#k13">phân biệt TQ, TC</a></li>'+

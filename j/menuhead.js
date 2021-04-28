@@ -46,7 +46,8 @@ var myvar = '<div id="head">'+
 //thongbao
 '<div id="thongbao">'+
 ' <p>'+
-' Thêm đang sống tốt 4  <a href="songtot.html#st5">Click</a>'+
+' Không muốn rối loạn  <a href="khac.html#k21">Click</a>'+
+'<br> Thêm đang sống tốt 4  <a href="songtot.html#st5">Click</a>'+
 '<br> Lưu ý: Các câu chào hỏi trên web chỉ mang tính tham khảo, nên thêm các biểu tượng mặt cười, ngắt câu, thêm dấu chấm, phẩy ... tránh tình trạng bị khóa nick do nhiêu người copy giống nhau.'+
 '<br> Thông báo sẽ tự đóng sau 10 giây '+
 ' </p>'+
