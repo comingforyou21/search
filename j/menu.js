@@ -26,6 +26,7 @@ var myvar = '<div class="menubg" id="menubg" onclick="closemenu()">'+
 '				</ul>'+
 '			</div>'+
 ''+
+'			<div class="title"><a href="hoitochuc.html">Hỏi tổ chức</a></div>'+
 '			<div class="title"><a href="khac.html">Kịch bản khác</a></div>'+
 '			<div class="lanmu">'+
 '				<ul>'+
