@@ -17,11 +17,11 @@ var myvar = '<div class="menubg" id="menubg" onclick="closemenu()">'+
 '			<div class="title"><a href="kichban.html">Kịch bản</a></div>'+
 '			<div class="lanmu">'+
 '				<ul>'+
-'					<li><a href="kichban.html#kb1">Kịch bản 1</a> </li>'+
-'					<li><a href="kichban.html#kb2">Kịch bản 2</a> </li>'+
-'					<li><a href="kichban.html#kb3">Kịch bản 3</a> </li>'+
+// '					<li><a href="kichban.html#kb1">Kịch bản 1</a> </li>'+
+// '					<li><a href="kichban.html#kb2">Kịch bản 2</a> </li>'+
+// '					<li><a href="kichban.html#kb3">Kịch bản 3</a> </li>'+
 '					<li><a href="kichban.html#kb4">Kịch bản 4</a> </li>'+
-'					<li><a href="kichban.html#kb5">Kịch bản 5</a> </li>'+
+// '					<li><a href="kichban.html#kb5">Kịch bản 5</a> </li>'+
 '					<li><a href="kichban6.html">Kịch bản thoái</a> </li>'+
 '				</ul>'+
 '			</div>'+
